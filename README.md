@@ -29,7 +29,7 @@ source ./aws-env.local
 aws sts get-caller-identity
 ```
 
-## Fluxo do instrutor
+## Fluxo de instalação do LAB na AWS Learner
 
 ```bash
 ./infra/scripts/preflight.sh
