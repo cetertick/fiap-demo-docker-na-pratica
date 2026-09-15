@@ -1,0 +1,15 @@
+# Não coloque credenciais reais em arquivos versionados.
+# Use este arquivo apenas como modelo.
+
+export AWS_ACCESS_KEY_ID="<SET_ME>"
+export AWS_SECRET_ACCESS_KEY="<SET_ME>"
+export AWS_SESSION_TOKEN="<SET_ME>"
+export AWS_REGION="us-east-1"
+export AWS_DEFAULT_REGION="$AWS_REGION"
+
+# Restrinja SSH ao seu IP público. Exemplo: 203.0.113.10/32
+export TF_VAR_ssh_allowed_cidr="<YOUR_PUBLIC_IP>/32"
+
+# Caminhos locais no WSL
+export SSH_KEY_PATH="$HOME/.ssh/id_ed25519"
+export SSH_PUBLIC_KEY_PATH="$HOME/.ssh/id_ed25519.pub"
